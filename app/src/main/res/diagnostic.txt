@@ -1,21 +1,19 @@
 --------- beginning of main
 --------- beginning of system
-I/MainActivity( 1921): onCreate event fired
-I/MainActivity( 1921): onStart event fired
-I/MainActivity( 1921): onResume event fired
-I/MainActivity( 1921): onPause event fired
-I/MainActivity( 1921): onStop event fired
-E/MainActivity( 1921): We're going down, Captain!
-I/MainActivity( 1921): onCreate event fired Bundle[{android:viewHierarchyState=Bundle[{android:views={16908290=android.view.AbsSavedState$1@38df4d1b, 2131296303=android.view.AbsSavedState$1@38df4d1b, 2131296304=android.view.AbsSavedState$1@38df4d1b, 2131296305=android.support.v7.widget.Toolbar$SavedState@3e743eb8, 2131296306=android.view.AbsSavedState$1@38df4d1b}}]}]
-I/MainActivity( 1921): onStart event fired
-I/MainActivity( 1921): onResume event fired
-I/MainActivity( 1921): onPause event fired
-I/MainActivity( 1921): onStop event fired
-E/MainActivity( 1921): We're going down, Captain!
-I/MainActivity( 1921): onCreate event fired
-I/MainActivity( 1921): onStart event fired
-I/MainActivity( 1921): onResume event fired
-I/MainActivity( 1921): onPause event fired
-I/MainActivity( 1921): onStop event fired
-I/MainActivity( 1921): onStart event fired
-I/MainActivity( 1921): onResume event fired
+I/MainActivity( 1895): onCreate event fired
+I/MainActivity( 1895): onStart event fired
+I/MainActivity( 1895): onResume event fired
+I/MainActivity( 1895): onPause event fired
+I/MainActivity( 1895): onStop event fired
+E/MainActivity( 1895): We're going down, Captain!
+I/MainActivity( 1895): onCreate event fired Bundle[{android:viewHierarchyState=Bundle[{android:views={16908290=android.view.AbsSavedState$1@3fae1bc3, 2131296303=android.view.AbsSavedState$1@3fae1bc3, 2131296304=android.view.AbsSavedState$1@3fae1bc3, 2131296305=android.support.v7.widget.Toolbar$SavedState@25696c40, 2131296306=android.view.AbsSavedState$1@3fae1bc3}}]}]
+I/MainActivity( 1895): onStart event fired
+I/MainActivity( 1895): onResume event fired
+I/MainActivity( 1895): onPause event fired
+I/MainActivity( 1895): onStop event fired
+I/MainActivity( 1895): onRestart event fired
+I/MainActivity( 1895): onStart event fired
+I/MainActivity( 1895): onResume event fired
+I/MainActivity( 1895): onPause event fired
+I/MainActivity( 1895): onStop event fired
+E/MainActivity( 1895): We're going down, Captain!

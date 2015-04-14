@@ -9,6 +9,8 @@ import android.util.Log;
 
 public class MainActivity extends ActionBarActivity {
 
+    public String TAG_NAME = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
         if(savedInstanceState != null) {
             bundleData += " " + savedInstanceState.toString();
         }
-        Log.i("MainActivity", "onCreate event fired" + bundleData);
+        Log.i(TAG_NAME, "onCreate event fired" + bundleData);
     }
 
 
@@ -31,31 +33,37 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("MainActivity", "onStart event fired");
+        Log.i(TAG_NAME, "onStart event fired");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("MainActivity", "onResume event fired");
+        Log.i(TAG_NAME, "onResume event fired");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i("MainActivity", "onPause event fired");
+        Log.i(TAG_NAME, "onPause event fired");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("MainActivity", "onStop event fired");
+        Log.i(TAG_NAME, "onStop event fired");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("MainActivity", "We're going down, Captain!");
+        Log.e(TAG_NAME, "We're going down, Captain!");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.i(TAG_NAME, "onRestart event fired");
     }
 
 
